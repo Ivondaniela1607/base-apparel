@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+:root{
+  /* ## Colors */
+
+/* ### Primary */
+
+--Desaturated-Red: hsl(0, 36%, 70%);
+--Soft-Red: hsl(0, 93%, 68%);
+
+/* ### Neutral */
+
+--Dark-GrayishRed: hsl(0, 6%, 24%);
+
+/* ### Gradients */
+/* 
+--Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+--Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%); 
+
+
+font-family: 'Josefin Sans', sans-serif;*/
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+.main{
+  text-align: center;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.container-logo{
+  padding: 30px 30px;
+  text-align: start;
+}
+
+.container-logo img{
+  width: 100px;
+  
+}
+
+.container-hero{
+  background-image: url('../images/hero-mobile.jpg');
+  background-repeat: no-repeat;
+
+  width: 370px;
+  height: 250px;
+  
+  margin: 0 auto;
+}
+
+.container-detail{
+  width: 80%;
+  min-width: 300px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.container-detail h1{
+  margin: 50px 0 20px;
+  color: var(--Desaturated-Red);
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 4.0rem;
+  letter-spacing: 10px;
+}
+
+.container-detail span{
+  color: var(--Dark-GrayishRed);
+  font-weight: 400;
+}
+
+.container-detail p{
+  color: var(--Desaturated-Red);
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.container-detail input{
+  width: 100%;
+  min-width: 300px;
+  max-width: 600px;
+  height: 45px;
+  border: 1px var(--Desaturated-Red) solid;
+  border-radius: 50px;
+  margin: 30px 0 0;
+  outline: none;
+  padding-left: 20px;
+}
+
+::placeholder{
+  font-size: 1.3rem;
+  
+  color: var(--Desaturated-Red);
+}
+
+.container-icon{
+  position: absolute;
+  background-image: linear-gradient(to right, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+  margin-top: -45px;
+  width: 60px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  right: 10%;
+}
+
