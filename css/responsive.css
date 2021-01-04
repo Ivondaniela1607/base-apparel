@@ -1,11 +1,5 @@
 @media screen and (min-width: 750px){
- /*  body{
-    background:black;
-  } */
 
-  body{
-    background-image: linear-gradient(to right, hsl(0, 0%, 100%),hsl(0, 100%, 98%));
-  }
   .main{
     display: grid;
     grid-template-columns: 60% 40%;
@@ -48,10 +42,18 @@
 
   .container-icon{
     width: 90px;
-    right: 58%;
+    /* right: 58%; */
+    left: 350px;
   }
 
   .container-detail p{
     line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .container-icon{
+    left: 38%;
+    
   }
 }
